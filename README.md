@@ -1,1 +1,1 @@
-# BuyIT_Mini
+# BuyIT_Lite
