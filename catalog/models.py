@@ -8,7 +8,7 @@ class ActiveCategoryManager(models.Manager):
         return super(ActiveCategoryManager, self).get_query_set().filter(is_active=True)
 
 
-class Category(models.Model):
+class Category(models.Model):    # sup  broski explain this class
 
     """ model class containing information about a category in the product catalog """
     name = models.CharField(max_length=50)
